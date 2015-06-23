@@ -10,13 +10,3 @@ setup(ext_modules = cythonize(
            sources=["Rectangle.cpp"],  # additional source file(s)
            language="c++",             # generate C++ code
 ))
-
-# from distutils.core import setup, Extension
-# from Cython.Build import cythonize
-# 
-# exts = Extension( "rect",
-#                   sources=["rect.pyx", "Rectangle.cpp"],
-#                   extra_link_args=['-framework', 'Rectangle'])
-# 
-# setup( name='rect',
-#        ext_modules = cythonize( exts ))
