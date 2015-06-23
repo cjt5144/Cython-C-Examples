@@ -2,7 +2,7 @@
 Simple examples for Cython C++ API
 
 ### Compilation
-To compile code, type the following at command prompt:
+To compile code, change directory to folder containing setup.py and type the following at command prompt:
 ```
 python setup.py build_ext --inplace
 ```
