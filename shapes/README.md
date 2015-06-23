@@ -13,3 +13,7 @@ import rect
 myRect = rect.PyRectangle(1,2,3,4)
 myRect.getArea()
 ```
+
+### Known Caveats (Subject to Change)
+
+C++ functions external to any class must be included in separate .pyx file and wrapped in a pure Python function.
