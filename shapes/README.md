@@ -16,4 +16,4 @@ myRect.getArea()
 
 ### Known Caveats (Subject to Change)
 
-C++ functions external to any class **must** be included in separate .pyx file and wrapped in a pure Python function.
+C++ functions external to any class **must** be included in separate .pyx file and wrapped in a pure Python function to be called from Python.
