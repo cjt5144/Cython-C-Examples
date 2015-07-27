@@ -88,9 +88,8 @@ class SackSet:
 				itemTypeKey = sorted(self.sizes.keys())[j]
 				
 				typeBag = knapsack.knapsack(self.items[itemTypeKey],
-													self.limits[i][j],
-													self.sizes[itemTypeKey]
-											)
+							self.limits[i][j],
+							self.sizes[itemTypeKey])
 				
 				ids.extend(typeBag[0])
 				wt = wt + typeBag[2]
